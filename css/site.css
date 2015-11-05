@@ -45,4 +45,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+section {
+  border: 1px solid red;
+  position: relative; }
+
+section.main-nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%; }
+
 /*# sourceMappingURL=site.css.map */
