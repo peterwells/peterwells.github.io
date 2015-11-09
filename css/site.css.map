@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,OAAQ;EACP,MAAM,EAAE,aAAa;EACrB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;;ACHd,QAAS;EACR,gBAAgB,ECDD,OAAO",
-"sources": ["../scss/partials/_body.scss","../scss/partials/_navigation.scss","../scss/partials/_palette.scss"],
+"mappings": "AACA,OAAQ;EACP,MAAM,EAAE,aAAa;EACrB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,KAAqB;;ACNjC,QAAS;EACR,gBAAgB,ECDD,OAAO;;ACAvB,kBAAmB;EAElB,eAAgB;IACf,gBAAgB,EAAE,oCAAwC;IAC1D,iBAAiB,EAAE,SAAS;IAC5B,MAAM,EAAE,KAAK;AAIf,6CAAuD;EAEtD,eAAgB;IACf,gBAAgB,EAAE,oCAAwC;IAC1D,iBAAiB,EAAE,SAAS;IAC5B,MAAM,EAAE,KAAK;AAIf,6CAAsD;EAErD,eAAgB;IACf,gBAAgB,EAAE,qCAAwC;IAC1D,iBAAiB,EAAE,SAAS;IAC5B,MAAM,EAAE,KAAK",
+"sources": ["../scss/partials/_body.scss","../scss/partials/_navigation.scss","../scss/partials/_palette.scss","../scss/partials/_welcome.scss"],
 "names": [],
 "file": "site.css"
 }
