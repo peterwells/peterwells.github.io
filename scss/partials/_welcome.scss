@@ -1,7 +1,7 @@
 @media only screen {
 	$width: $small-screen-max * $section-text-size;
 	section.welcome {
-		background-image: url("http://placehold.it/#{$width}x400");
+		background-image: url("http://placehold.it/#{$width}x400/#{$color-tertiary}");
 		background-repeat: no-repeat; 
 		height: 400px;
 	}
@@ -10,7 +10,7 @@
 @media only screen and (min-width: $medium-screen-min) {
 	$width: $medium-screen-max * $section-text-size;
 	section.welcome {
-		background-image: url("http://placehold.it/#{$width}x400");
+		background-image: url("http://placehold.it/#{$width}x400/#{$color-secondary}");
 		background-repeat: no-repeat; 
 		height: 400px;
 	}
@@ -19,7 +19,7 @@
 @media only screen and (min-width: $large-screen-min) {
 	$width: $large-screen-max * $section-text-size;
 	section.welcome {
-		background-image: url("http://placehold.it/#{$width}x400");
+		background-image: url("http://placehold.it/#{$width}x400/#{$color-primary}");
 		background-repeat: no-repeat; 
 		height: 400px;
 	}

@@ -6,21 +6,21 @@ section {
   text-size: 12 px; }
 
 .top-bar {
-  background-color: #3d3d3d; }
+  background-color: 3d3d3d; }
 
 @media only screen {
   section.welcome {
-    background-image: url("http://placehold.it/480emx400");
+    background-image: url("http://placehold.it/480emx400/11F");
     background-repeat: no-repeat;
     height: 400px; } }
 @media only screen and (min-width: 40.0625em) {
   section.welcome {
-    background-image: url("http://placehold.it/768emx400");
+    background-image: url("http://placehold.it/768emx400/1F1");
     background-repeat: no-repeat;
     height: 400px; } }
 @media only screen and (min-width: 64.0625em) {
   section.welcome {
-    background-image: url("http://placehold.it/1080emx400");
+    background-image: url("http://placehold.it/1080emx400/3d3d3d");
     background-repeat: no-repeat;
     height: 400px; } }
 
