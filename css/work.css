@@ -8,6 +8,7 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: contain;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h2, h3, h4{
@@ -29,6 +30,7 @@ h2, h3, h4{
 	top: 50px;
 	height: 30px;
 	padding-right: 2rem;
+	font-family: 'Bangers', sans-serif;
 }
 
 .header-3{
