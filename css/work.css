@@ -97,6 +97,10 @@ h3 i.fa{
 	width: 100%;
 }
 
+div.reveal-modal {
+	top: 10rem;
+}
+
 li.block {
 	/* border: solid 1px black; */
 	margin: 0px;
