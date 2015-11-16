@@ -92,21 +92,11 @@ h3 i.fa{
 
 .alpha {
 	top: 10rem;
-	position: absolute;
-	margin-top: 10px;
-}
-
-.beta {
-	position: fixed;
-	top: 10rem !important;
-	overflow: scroll;
-	height: 80% 
-}
-
-.gamma {
 	position: relative;
-	top: 50%;
+	margin-top: 10px;
+	width: 100%;
 }
+
 li.block {
 	/* border: solid 1px black; */
 	margin: 0px;
@@ -134,10 +124,6 @@ li.block a:hover {
 	background: #747474;
 	color: #16ABF1;
 	font-weight: bold;
-}
-
-svg {
-	border: solid 1px black;
 }
 
 li.completed, li.completed * {
