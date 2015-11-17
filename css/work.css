@@ -4,33 +4,25 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
+	background-image: url("http://127.0.0.1/images/backgrounds/stan_lee_chibi.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 @media only screen {
   body {
-    background-image: url("http://127.0.0.1/images/backgrounds/stan_lee_chibi.jpg");
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-	background-position: center;
-	background-size: auto 100%;
+    background-size: auto 100%;
     } 
 }
 @media only screen and (min-width: 40.0625em) {
   body {
-    background-image: url("http://127.0.0.1/images/backgrounds/stan_lee_chibi.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: 100% auto;
+    background-size: 100% auto;
     } 
 }
 @media only screen and (min-width: 64.0625em) {
   body {
-    background-image: url("http://127.0.0.1/images/backgrounds/stan_lee_chibi.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-size: contain;
+    background-size: contain;
     }
 }
 
