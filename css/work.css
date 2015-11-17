@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	background-image: url("http://127.0.0.1/images/backgrounds/stan_lee_chibi.jpg");
+	background-image: url("/images/backgrounds/stan_lee_chibi.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
