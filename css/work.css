@@ -148,3 +148,20 @@ li.block a:hover {
 li.completed, li.completed * {
 	color:  rgba(61, 93, 155, 1);
 }
+
+div.quote {
+	display: flex;
+	justify-content: center;
+}
+
+div.quote > blockquote {
+	box-shadow: 0px 0px 10px #747474;
+	width: 90%;
+	background-color: white;
+	padding-bottom: 1rem;
+}
+
+blockquote > cite > a:hover {
+	color: #16ABF1;
+}
+
