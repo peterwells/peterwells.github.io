@@ -3,11 +3,14 @@ section {
   width: 100%;
   height: auto;
   min-height: 5rem;
-  text-size: 12 px; }
+  font-size: 12 px; }
 
 section p {
   text-align: center; }
 
+section iframe {
+  max-width: 100%;
+}
 a {
   display: inline-block;
   border: 1px solid black;
