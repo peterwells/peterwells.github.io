@@ -1,6 +1,7 @@
 section {
   border: 1px solid red;
   width: 100%;
+  max-width: 100%;
   height: auto;
   min-height: 5rem;
   font-size: 12 px; }
