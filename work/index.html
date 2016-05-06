@@ -33,7 +33,7 @@
 		
 		<div class="row alpha">
 			<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
-				<li class="block"><a href="#" data-reveal-id="panel7b"><i class="fa fa-calendar-check-o"></i> Goals 15-16 </a></li>
+				<li class="block"><a href="#" data-reveal-id="panel7b"><i class="fa fa-calendar-check-o"></i> Goals 16-17 </a></li>
 				<li class="block"><a href="#" data-reveal-id="panel8b"><i class="fa fa-code"></i> ROAUSDF scholarship changes </a></li>
 				<li class="block"><a href="#" data-reveal-id="panel9b"><i class="fa fa-graduation-cap"></i> SAT Score updates </a></li>
 				<li class="block"><a href="#" data-reveal-id="panel1b"><i class="fa fa-cogs"></i> Student Access Upgrade 4.1</a></li>
@@ -43,82 +43,10 @@
 				<!-- li class="block"><a href="#" data-reveal-id="panel6b"><i class="fa fa-users"></i> Google Groups -- Ruby Club</a></li -->
 				<!-- li class="block"><a href="#" data-reveal-id="panel3b"><i class="fa fa-users"></i> Google Groups -- SAOnline</a></li -->				
 			</ul>
-			<div id="panel7b" class="reveal-modal xlarge beta" data-reveal role="dialog">
-				<dl>
-					<dt><a href="https://docs.google.com/a/nd.edu/document/d/1hyjNUtkBuBX66qgQOzLqgWs78YSLswa3nU_89dmM5ZY/edit?usp=sharing" target="_blank">Google Document</a></dt>
-					<dt>Deliver value through innovation</dt>
-					<dd class="panel">
-						<ul>
-							<li>Convert Coldfusion to Rails - 4/1/16
-								<ul>
-									<li>FERPA application: just need to get deployed</li>
-									<li class="completed">Make application still function when javascript cannot be loaded</li>
-									<li class="completed">Stretch: rewrite api’s used by current application</li>
-								</ul>
-							</li>
-							<li>Enhance automated testing - 4/1/16
-								<ul>
-									<li class="completed">Grow existing catalog of systems tested by adding 5 to our testing repository</li>
-									<li>Build one application’s test suite into a full regression test</li>
-								</ul>
-							</li>
-						</ul>
-					</dd>
-					<dt>Deliver value to our customers by leading projects and customer care efforts</dt>
-					<dd class="panel">
-						<ul>
-							<li class="completed">Student Activities Online
-								<ul>
-									<li>Complete successful deployment to PROD by 8/17; beginning use by students by 8/20/15</li>
-									<li>Lead project closeout activities and close project by 9/20/15</li>
-								</ul>
-							</li>
-							<li>Complete 5 customer care/support projects - 4/1/16
-							<li>Complete 60% of projects/ 70% of customer care efforts on time - 4/1/16</li>
-							<li>Stretch: complete 10 customer care/ support projects - 4/1/16</li>
-							<li>Stretch: complete 75% of projects / 80% customer care on time - 4/1/16</li>
-						</ul>
-					</dd>
-					<dt>Develop my business analysis skills</dt>
-					<dd class="panel">
-						<ul>
-							<li>Participate in process mapping
-								<ul>
-									<li class="completed">Attend process mapping class by 4/1/16</li>
-									<li>Complete process mapping exercise for Grad School by 4/1/16</li>
-								</ul>
-							</li>
-						</ul>
-					</dd>
-					<dt>Develop my leadership skills</dt>
-					<dd class="panel">
-						<ul>
-							<li class="completed">Participate in creation/running Student Customer Care Guidance Council 
-								<ul>
-									<li>Help conduct first meeting by 8/1/15</li>
-									<li>Help conduct first prioritization vote by 10/15/15</li>
-									<li>Help establish regular meeting times by 10/15/15</li>
-								</ul>
-							</li>
-							<li>Serve as OIT maintenance weekend CITS testing coordinator 
-								<ul>
-									<li>Oversee CITS testing of systems after OIT maintenance by 4/1/16</li>
-								</ul>
-							</li>
-							<li>ServiceNow RFC Project - 12/31/15
-								<ul>
-									<li>Act as the voice for CITS developers during analysis, implementation, and testing</li>
-									<li>Work to gather feedback and establish buy-in from developers</li>
-									<li>Make sure the new process is not simply a re-implementation of existing process</li>
-								</ul>
-							</li>
-							<li>Stretch: Participate on Green Belt
-								<ul>
-									<li>Identify opportunity to participate in a Green Belt initiative by 4/1/16</li>
-								</ul>
-							</li>
-						</ul>
-					</dd>
+			<div id="panel7b" class="reveal-modal small beta" data-reveal role="dialog">
+				<dl class='menu'>
+					<dd class='menu-item'><a href="#" data-reveal-id="goals_2017">2016-2017</a></dd>
+					<dd class='menu-item'><a href="#" data-reveal-id="goals_2016">2015-2016</a></dd>
 				</dl>
 				<a href="#" class="close-reveal-modal">Close</a>
 			</div>
@@ -254,6 +182,12 @@
 				</table></li>
 				</ul>
 			</div>
+
+			<div id="goals_2017" class="reveal-modal xlarge beta" data-reveal role="dialog">
+			</div>
+
+			<div id="goals_2016" class="reveal-modal xlarge beta" data-reveal role="dialog">
+			</div>
 			
 			<!-- div id="panel3b" class="reveal-modal xlarge beta" data-reveal aria-labeledby="Title" aria-hidden="true" role="dialog">
 				<iframe id="forum_embed_sao"
@@ -340,6 +274,13 @@
 		<!-- script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js"></script>
 		<script type="text/javascript">
+			$(function(){
+				$("#goals_2016").load("goals/_2016_partial.html");
+				$("#goals_2016").append($('<a href="#" class="close-reveal-modal">Close</a>'));
+
+				$("#goals_2017").load("goals/_2017_partial.html");
+				$("#goals_2017").append($('<a href="#" class="close-reveal-modal">Close</a>'));
+			});
 			$(document).foundation();
 		</script>
 	</body>

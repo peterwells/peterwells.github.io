@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Work</title>
+		<!-- link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/css/foundation.min.css" -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<!--link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css"/-->
+		<link rel="stylesheet" href="/css/work.min.css">
+		<link rel="shortcut icon" href="favicon-inkscape.ico">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/vendor/modernizr.js"></script>
+		<link rel="manifest" href="manifest.json">
+
+		
+	</head>
+
+	<body>
+			<div id="goals" class="panel small-12 medium-6 medium-centered columns">
+			</div>
+	</body>
+
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+
+	<!-- Initialization of javascript -->
+	<!-- script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/vendor/jquery.js"></script>
+	<script type="text/javascript">
+		$.urlParam = function(name){
+			    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+			    if (results==null){
+			       return null;
+			    }
+			    else{
+			       return results[1] || 0;
+			    }
+			};
+
+			$(function(){
+			$("#goals").load("_"+ $.urlParam('year') +"_partial.html");
+		});
+	</script>
+</html>
