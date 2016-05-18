@@ -1,17 +1,13 @@
 section {
   border: 1px solid red;
   width: 100%;
-  max-width: 100%;
   height: auto;
   min-height: 5rem;
-  font-size: 12 px; }
+  text-size: 12 px; }
 
 section p {
   text-align: center; }
 
-section iframe {
-  max-width: 100%;
-}
 a {
   display: inline-block;
   border: 1px solid black;
@@ -29,14 +25,8 @@ a:hover {
   background-color: black;
   box-shadow: 0px 0px 10px 5px #FFFFFF; }
 
-div.quote {
-  background-color: white; }
-
-div.quote > blockquote {
-  background-color: white; }
-
 .top-bar {
-  background-color: 3d3d3d; }
+  background-color: #3d3d3d; }
 
 section.welcome {
   background-position: center;
@@ -44,12 +34,19 @@ section.welcome {
 
 @media only screen {
   section.welcome {
-    background-image: url("http://placehold.it/480emx400/11F"); } }
+    width: 75%;
+    background-image: url("/images/backgrounds/then.png");
+    background-size: contain;
+    background-repeat: no-repeat; } }
 @media only screen and (min-width: 40.0625em) {
   section.welcome {
-    background-image: url("http://placehold.it/768emx400/1F1"); } }
+    background-image: url("/images/backgrounds/now.jpg");
+    background-position: center;
+    width: 75%; } }
 @media only screen and (min-width: 64.0625em) {
   section.welcome {
-    background-image: url("http://placehold.it/1080emx400/3d3d3d"); } }
+    background-image: url("/images/backgrounds/now.jpg");
+    background-position: center;
+    width: 100%; } }
 
 /*# sourceMappingURL=site.css.map */
