@@ -34,19 +34,13 @@ section.welcome {
 
 @media only screen {
   section.welcome {
-    width: 75%;
-    background-image: url("/images/backgrounds/then.png");
-    background-size: contain;
-    background-repeat: no-repeat; } }
-@media only screen and (min-width: 40.0625em) {
-  section.welcome {
-    background-image: url("/images/backgrounds/now.jpg");
-    background-position: center;
-    width: 75%; } }
-@media only screen and (min-width: 64.0625em) {
-  section.welcome {
-    background-image: url("/images/backgrounds/now.jpg");
-    background-position: center;
-    width: 100%; } }
+    width: 100%; }
+
+  div.image-container {
+    width: 50%;
+    max-height: 100%; }
+
+  img {
+    height: inherit; } }
 
 /*# sourceMappingURL=site.css.map */
