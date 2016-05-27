@@ -1,7 +1,18 @@
 section.welcome{
 	background-position: center; 
 	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
+.image-container > img {
+	height: 100%;
+	width: 100%;
+}
+
+$image-container-base: 6rem;
 
 @media only screen {
 	$width: $small-screen-max * $section-text-size;
@@ -9,24 +20,32 @@ section.welcome{
 		width: 100%;		
 	}
 	div.image-container {
-		width: 50%;
-		max-height: 100%;
-	}
-	img {
-		height: inherit;
+		width: ($image-container-base);
+		height: ($image-container-base);
+		img {
+			border-radius: ($image-container-base)/2;
+		}
 	}
 }
 
 @media only screen and (min-width: $medium-screen-min) {
 	$width: $medium-screen-max * $section-text-size;
-	section.welcome {
-		
+	div.image-container {
+		width: ($image-container-base + 2);
+		height: ($image-container-base + 2);
+		img {
+			border-radius: ($image-container-base+2)/2;
+		}
 	}
 }
 
 @media only screen and (min-width: $large-screen-min) {
 	$width: $large-screen-max * $section-text-size;
-	section.welcome {
-		
+	div.image-container {
+		width: ($image-container-base + 4);
+		height: ($image-container-base + 4);
+		img {
+			border-radius: ($image-container-base+4)/2;
+		}
 	}
 }

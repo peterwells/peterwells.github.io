@@ -1,14 +1,9 @@
 $section-text-size: 12;
 section {
-	border: 1px solid red;
 	width: 100%;
 	height: auto;
 	min-height: 5rem;
 	text-size: $section-text-size px;
-}
-
-section p {
-	text-align: center;
 }
 
 a {
