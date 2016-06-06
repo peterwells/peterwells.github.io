@@ -34,7 +34,8 @@ section.welcome {
 
 .image-container > img {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  border-radius: 50%; }
 
 @media only screen {
   section.welcome {
@@ -42,20 +43,14 @@ section.welcome {
 
   div.image-container {
     width: 6rem;
-    height: 6rem; }
-    div.image-container img {
-      border-radius: 3rem; } }
+    height: 6rem; } }
 @media only screen and (min-width: 40.0625em) {
   div.image-container {
     width: 8rem;
-    height: 8rem; }
-    div.image-container img {
-      border-radius: 4rem; } }
+    height: 8rem; } }
 @media only screen and (min-width: 64.0625em) {
   div.image-container {
     width: 10rem;
-    height: 10rem; }
-    div.image-container img {
-      border-radius: 5rem; } }
+    height: 10rem; } }
 
 /*# sourceMappingURL=site.css.map */

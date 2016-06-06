@@ -1,0 +1,174 @@
+/*#16ABF1 - blue*/
+$highlight-color: #530001; 
+$header-gradient-left: #805e32;
+$header-gradient-right: #dec8aa;
+$shadow-color: #281d0f;
+$btn-alt-back:#bb8e52;
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("/images/backgrounds/monkey-stencil.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+a {
+	color: $highlight-color;
+}
+
+@media only screen {
+  body {
+    background-size: auto 50%;
+    } 
+}
+@media only screen and (min-width: 40.0625em) {
+  body {
+    background-size: 75% auto;
+    } 
+}
+@media only screen and (min-width: 64.0625em) {
+  body {
+    background-size: 50% auto;
+    }
+}
+
+h2, h3, h4{
+	color: white;
+	width: 100%;
+}
+
+header {
+	border-bottom-style: solid;
+	border-color: black;
+	border-bottom-width: 2px;
+	margin-bottom: 2rem;
+	padding: 1rem;
+	position: fixed;
+	width: 100%;
+	height: 10rem;
+	/* line-height: 130px;*/
+	z-index: 9999;
+	top: 0;
+		
+	 /* IE10 */
+	background-image: -ms-linear-gradient(left, $header-gradient-left 0%, $header-gradient-right 100%);
+	/* Mozilla Firefox */
+	background-image: -moz-linear-gradient(left, $header-gradient-left 0%, $header-gradient-right 100%);
+	/* Opera */
+	background-image: -o-linear-gradient(left, $header-gradient-left 0%, $header-gradient-right 100%);
+	/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(1, #00A3EF));
+	/* Webkit (Chrome 11+) */
+	background-image: -webkit-linear-gradient(left, $header-gradient-left 0%, $header-gradient-right 100%);
+	/* Proposed W3C Markup */
+	background-image: linear-gradient(left,$header-gradient-left 0%, $header-gradient-right 100%);
+}
+
+.header-1{
+	position: relative;
+	text-align: left;
+	top: 0px;
+	height: 4rem;
+	display: inline-block;
+	margin: 0px;
+}
+
+.header-2{
+	position: relative;
+	text-align: right;
+	padding-right: 2rem;
+	font-family: 'Bangers', sans-serif;
+	display: inline-block;
+	margin: 0px;
+}
+
+.header-3{
+	position: relative;
+	text-align: left;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header-3 > a{
+	color: white;
+	margin-left: .25rem;
+	margin-right: .25rem;
+	padding-left: .25rem;
+	padding-right: .25rem;
+	font-weight: bold;
+	display: inline-block;
+	transition: color .5s, box-shadow .5s, background-color .5s;
+}
+
+.header-3 > a:hover {
+	color: $btn-alt-back;
+	box-shadow: 0px 0px 5px 2px $highlight-color;
+	background-color: $highlight-color;
+}
+
+h3 i.fa{
+	font-size: 1.3rem;
+}
+
+.alpha {
+	top: 10rem;
+	position: relative;
+	margin-top: 10px;
+	width: 100%;
+}
+
+div.reveal-modal {
+	top: 10rem;
+}
+
+li.block {
+	/* border: solid 1px black; */
+	margin: 0px;
+	padding: 1rem;
+	
+}
+
+li.block a {
+	/* border: solid 1px red; */
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	padding: 1rem;
+	color: $shadow-color;
+	background: white;
+	box-shadow: 0px 0px 10px $shadow-color;
+	-o-transition: box-shadow .5s linear .25s, color .2s linear .25s, background .5s, font-weight .25s linear .3s;
+	-moz-transition: box-shadow .5s linear .25s, color .2s linear .25s, background .5s, font-weight .25s linear .3s;
+	-webkit-transition: box-shadow .5s linear .25s, color .2s linear .25s, background .5s, font-weight .25s linear .3s;
+	transition: box-shadow .5s linear .25s, color .2s linear .25s, background .5s, font-weight .25s linear .3s;
+}
+
+li.block a:hover {
+	box-shadow: 0px 0px 50px $highlight-color;
+	background: $btn-alt-back;
+	color: $highlight-color;
+	font-weight: bold;
+}
+
+li.completed, li.completed * {
+	color:  $highlight-color;
+}
+
+div.quote {
+	display: flex;
+	justify-content: center;
+}
+
+div.quote > blockquote {
+	box-shadow: 0px 0px 10px $shadow-color;
+	width: 90%;
+	background-color: white;
+	padding-bottom: 1rem;
+}
+
+blockquote > cite > a:hover {
+	color: $highlight-color;
+}
+

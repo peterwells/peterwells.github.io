@@ -10,6 +10,7 @@ section.welcome{
 .image-container > img {
 	height: 100%;
 	width: 100%;
+	border-radius: 50%;
 }
 
 $image-container-base: 6rem;
@@ -22,9 +23,6 @@ $image-container-base: 6rem;
 	div.image-container {
 		width: ($image-container-base);
 		height: ($image-container-base);
-		img {
-			border-radius: ($image-container-base)/2;
-		}
 	}
 }
 
@@ -33,9 +31,6 @@ $image-container-base: 6rem;
 	div.image-container {
 		width: ($image-container-base + 2);
 		height: ($image-container-base + 2);
-		img {
-			border-radius: ($image-container-base+2)/2;
-		}
 	}
 }
 
@@ -44,8 +39,5 @@ $image-container-base: 6rem;
 	div.image-container {
 		width: ($image-container-base + 4);
 		height: ($image-container-base + 4);
-		img {
-			border-radius: ($image-container-base+4)/2;
-		}
 	}
 }
