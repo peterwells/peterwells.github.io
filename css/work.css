@@ -109,7 +109,7 @@ li.block a {
   display: inline-block;
   padding: 1rem;
   color: #281d0f;
-  background: white;
+  background: #ffffff;
   box-shadow: 0px 0px 10px #281d0f;
   -o-transition: box-shadow .5s linear .25s, color .2s linear .25s, background .5s, font-weight .25s linear .3s;
   -moz-transition: box-shadow .5s linear .25s, color .2s linear .25s, background .5s, font-weight .25s linear .3s;
@@ -121,6 +121,26 @@ li.block a:hover {
   background: #bb8e52;
   color: #530001;
   font-weight: bold; }
+
+.active-project {
+  position: relative;
+  overflow: hidden; }
+
+.active-project:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-width: 0 0 6rem 4rem;
+  border-style: solid;
+  border-bottom-color: #530001;
+  border-top-color: transparent;
+  border-right-color: #530001;
+  border-left-color: transparent;
+  -o-transition: color .5s;
+  -moz-transition: color .5s;
+  -webkit-transition: color .5s;
+  transition: color .5s; }
 
 li.completed, li.completed * {
   color: #530001; }
