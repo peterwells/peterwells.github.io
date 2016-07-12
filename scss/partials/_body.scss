@@ -1,14 +1,6 @@
 $section-text-size: 12;
 body {
-	background-image: url("/images/backgrounds/checkered_texture_small.png");
-	background-repeat: repeat;
-	background-color: $color-secondary; 
-}
-section {
-	width: 100%;
-	height: auto;
-	min-height: 5rem;
-	text-size: $section-text-size px;
+	background-color: white;
 }
 
 a {

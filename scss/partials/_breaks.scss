@@ -1,0 +1,28 @@
+$break-height: 5rem;
+
+@media only screen {
+  div.break {
+    width: 100%;
+    height: $break-height;
+    background-image: url("/images/backgrounds/checkered_texture_small.png");
+  	background-repeat: repeat;
+  }
+  div.break.first{
+    background-color: $color-secondary;
+  }
+  div.break.second{
+    background-color: $color-tertiary;
+  }
+}
+
+@media only screen and (min-width: $medium-screen-min) {
+	div.break {
+    height: ($break-height + 5);
+  }
+}
+
+@media only screen and (min-width: $large-screen-min) {
+	div.break {
+    height: ($break-height + 10);
+  }
+}

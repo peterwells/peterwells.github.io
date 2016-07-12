@@ -1,10 +1,10 @@
-section.welcome{
-	background-position: center; 
-	height: 400px;
+div.welcome{
+	background-position: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: $color-primary;
 }
 
 .image-container > img {
@@ -13,12 +13,13 @@ section.welcome{
 	border-radius: 50%;
 }
 
-$image-container-base: 6rem;
+$image-container-base: 10rem;
+$welcome-height-base: 30rem;
 
 @media only screen {
-	$width: $small-screen-max * $section-text-size;
-	section.welcome {
-		width: 100%;		
+	div.welcome {
+		width: 100%;
+		height: $welcome-height-base;
 	}
 	div.image-container {
 		width: ($image-container-base);
@@ -27,7 +28,9 @@ $image-container-base: 6rem;
 }
 
 @media only screen and (min-width: $medium-screen-min) {
-	$width: $medium-screen-max * $section-text-size;
+	div.welcome {
+		height: ($welcome-height-base + 10);
+	}
 	div.image-container {
 		width: ($image-container-base + 2);
 		height: ($image-container-base + 2);
@@ -35,8 +38,9 @@ $image-container-base: 6rem;
 }
 
 @media only screen and (min-width: $large-screen-min) {
-	$width: $large-screen-max * $section-text-size;
-	div.image-container {
+	div.welcome {
+		height: ($welcome-height-base + 20);
+	}div.image-container {
 		width: ($image-container-base + 4);
 		height: ($image-container-base + 4);
 	}
