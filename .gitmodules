@@ -1,0 +1,3 @@
+[submodule "brent"]
+	path = brent
+	url = https://github.com/peterwells/neighbor_brent.git
