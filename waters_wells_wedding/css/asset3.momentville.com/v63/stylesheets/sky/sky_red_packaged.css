@@ -1,0 +1,217 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;}
+table {font-size:inherit;font:100%;}
+select, input, textarea {font:99% gerogia,arial,helvetica,clean,sans-serif;}
+pre, code {font:115% monospace;*font-size:100%;}
+body * {line-height:1.22em;}
+ul li {list-style-type: disc; margin-left: 1.5em}
+ol li {list-style-type: decimal; margin-left: 1.5em;}
+#nav li {list-style-type: none; margin-left: 0}
+body {background: #000; color: #fff}
+a img {border-style: none}
+p {padding: 0.6em 0 0.6em 0;}
+strong {font-weight: bold}
+em {font-style: italic}
+body {font:13px arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}
+table {font-size:inherit;font:100%;}
+select, input, textarea {font:99% arial,helvetica,clean,sans-serif;}
+pre, code {font:115% monospace;*font-size:100%;}
+body * {line-height:1.22em;}
+a {outline: none}
+.center {margin: 0 auto; text-align: center}
+#activity {position:fixed; bottom: 0; left:0; margin: 0; padding: 10px 0 0 0; z-index: 2000; height: 40px; width: 100%; filter: alpha(opacity=80); opacity: 0.8; -moz-opacity: 0.8; color: #000; display: block; text-align: center; font-weight: bold; font-size: 1.4em; background-color: #FFeeaa; border-style:solid; border-color:#000; border-width:2px 0}
+#activity {_position: absolute; _top:0}
+#activity img {padding: 3px 0 0 0}
+.sIFR-active h1.title {visibility: hidden;}
+.page_drop {border: 2px dashed #f00}
+input.delete_button {width: 20px; height: 20px; background: transparent url(images/delete_20.png) top right no-repeat; border: 0px; cursor: pointer}
+#element_adder {text-align: right; margin-top: 20px}
+#bookmark_area {text-align: right; padding-top: 30px; height: 50px}
+#footer {font-size: 10px; text-align: right; padding: 3px}
+#footer img {float: right; margin-left: 3px}
+.errors {border: 1px solid #f00; color: #f00; padding: 5px; margin: 2px; background-color: #000}
+.awaiting_approval, .warnings {border: 1px solid #0f0; color: #0f0; padding: 5px; margin: 2px; background-color: #000}
+.rsvp_acknowledge, .notices {margin-bottom: 10px; padding: 10px; overflow: auto; font-size: 1.1em; font-weight: bold; color: #1C5510; border: 2px solid #1C5510; background-color: #efd; font-weight: bold}
+.clear {clear:both}
+#ad_banner_container, #ad_tower_container, #ad_footer_container, #ad_leaderboard_container {}
+#ad_banner_container {width: 468px; height: 60px; margin: 0 auto 10px auto}
+#ad_tower_container {width: 120px; height: 600px; float: right}
+#ad_footer_container {margin: 10px auto 10px auto; width: 336px; min-height: 280px; _height: 280px}
+#ad_leaderboard_container {width: 768px; height: 90px; margin: 0px auto 2px auto}
+.custom_preview_hovered {border: 3px solid #0f0 !important}
+#rsvp_acknowledge {background-color: #000; color: #0d0}
+#rsvp_acknowledge p {padding: 3px}
+.x_success {background-color: #000; color: #0d0; padding: 5px}
+a.editor_ok_link {font-size: 2px; padding: 2px 3px 2px 3px; margin: 0 2px 0 2px; border: 1px outset #040; font: bold 12px "arial", "sans-serif"; color: #fff; background-color: #070; text-decoration: none}
+a.editor_cancel_link {padding: 2px 3px 2px 3px; margin: 0 2px 0 2px; border: 1px outset #400; font: bold 12px "arial", "sans-serif"; color: #fff; background-color: #700; text-decoration: none}
+html, body {height: 100%}
+#site_wrapper {height:auto !important; min-height: 100%; _height: 100%}
+body {font-family: verdana; line-height:143%}
+#site_wrapper {padding: 0; margin: 0}
+#site {margin: 0; padding: 0 10px}
+#header {min-height: 110px; _height: 110px; position: relative; margin-bottom: 10px}
+#header h1{ margin-left: 220px; padding-top:12px; text-align:center; font-size: 26px; font-weight: bold}
+#countdown {position: absolute; bottom: 5px; right: 5px; font-size: 0.9em}
+#nav {float: left; width: 200px; background: transparent none center top no-repeat; padding: 40px 0 0 0}
+#pages {background: transparent none center bottom no-repeat; padding: 0 0 88px 0}
+#pages li {display: block; margin: 0; text-align:right; font-weight:bold; padding: 2px 8px 2px 8px; *padding: 1px 8px 1px 8px}
+#pages a {padding: 2px 6px 2px 6px; text-decoration: none}
+#site_content {margin-left: 220px}
+#footer {clear: both; text-align: right}
+#site {margin: 0; padding: 0 10px}
+#site {min-width:900px; max-width:1152px; margin:0 auto; _width:90%}
+.element {display: block; position: relative; margin: 0 0 15px 0; padding: 0; overflow: hidden; word-wrap: break-word; border: 1px dotted transparent; _border-width: 0}
+.element_header {background: transparent url(theme_images/common/el_top.gif) top left no-repeat; min-height: 32px; _height: 32px; padding: 0}
+.element_header h2 {padding: 10px 0 6px 40px; font-family: "Palatino Linotype",Palatino,Georgia; font-size: 1.5em; font-weight: bold; font-style: oblique}
+.element_header h2 span {min-width: 30px; min-height: 24px; _height: 24px; display: inline-block}
+.element_body {padding: 10px; padding-top: 5px}
+.inplace-edit .buttons {display: inline}
+.inplace-edit .buttons input{ color:#fff; font: bold 10px "arial", "sans-serif"; border: 1px outset #666; padding: 1px; background: #888 url(stylesheets/images/btn_bg_submit.png) repeat-x; text-decoration: none; cursor: pointer}
+a.btn, input.btn {color:#fff; font: bold 12px "arial", "sans-serif"; border: 1px outset #666; padding: 2px; background: #888 url(stylesheets/images/btn_bg_submit.png) repeat-x; text-decoration: none; cursor: pointer}
+input.btn:disabled {color: #aaa}
+input, textarea {font-size: 0.9em; background-color: #efefef}
+input:focus, textarea:focus {background-color: #fff}
+.org_add_link {margin: 3px 0 3px 0; font-size: 0.8em}
+.add_area {margin: 6px 10px 10px 10px; padding: 10px; border-bottom: 1px dotted #aaa; border-top: 1px dotted #aaa}
+.info_body {display: block}
+.photo_and_text_body .photo_wrapper {min-height: 100px; _height: 100px}
+.photo_and_text_body, .text_wrapper {*padding: 1px; *overflow: hidden !imporant; display: block}
+.photo_float_right .photo_wrapper {float: right}
+.photo_float_left .photo_wrapper {float: left}
+.photo_and_text_body img {border: 1px solid #777; padding: 5px}
+.photo_body {text-align: center}
+.photo_float_left .photo_body .photo {float: left; margin: 0 0 0 5px}
+.photo_float_right .photo_body .photo {margin: 0 5px 0 0; float: right}
+.photo_float_center .photo_body .photo {margin: 0 auto 0 auto}
+.photo_body .photo img {width: 100%}
+.gallery {padding: 0 0 10px 5px}
+.gallery ul li{ list-style-type: none; height: 100px; width: 100px; padding: 4px; margin: 4px 0 0 4px; float:left; border: 0px solid #000}
+.gallery_buttons {height: 25px; text-align: center}
+.guestbook_body .guestbook_post {margin: 0 0 5px 0 ; padding: 5px 0 0 0 ; border-bottom: 1px dotted #aaa}
+.guestbook_body .guestbook_post .details{ text-align: right; font-size: 0.8em}
+.approval_area form {margin: 0 4px; display: inline}
+.approval_required {border: 2px dashed #990 !important; padding: 2px !important}
+.poll_results td, .poll_answers td {height: 24px; padding: 2px 5px}
+.poll_results .graph {width: 200px; height: 18px; border: 1px solid #666; background-color: #151515; padding: 1px; color: #fff; font-size: 14px; font-weight: bold; position: relative}
+.poll_results .graph .bar {display: block; background: #666; text-align: left; height: 18px; position: absolute; top: 1px; left: 1px; z-index: 50}
+.poll_results .graph .result {position: absolute; top: 1px; left: 5px; z-index: 100}
+.blog_body textarea.nicEdit {width: 550px; height: 80px}
+.blog_post {padding-bottom: 10px; margin-bottom: 10px}
+.blog_post h3 {margin-top: 0; font-size: 1.4em; border-left: 4px solid #666; padding-left: 10px}
+.blog_post h3 span {min-width: 30px; min-height: 24px; _height: 24px; display: inline-block; cursor: text}
+.blog_post .date {text-align: right; font-size: 0.9em}
+.q_and_a_body .q_and_a_post {margin: 0 0 5px 0; padding: 5px 0 0 0; border-bottom: 1px dotted #aaa}
+.q_and_a_body .q_and_a_post .details{ float: right; text-align: right; font-size: 0.8em}
+.q_and_a_body textarea {width: 350px; height: 60px}
+.q_and_a_body .question {clear: both; margin: 8px}
+.q_and_a_body .answer {margin: 8px}
+.album_body {overflow: auto}
+.album_body li{ position: relative; list-style-type: none; margin: 0 5px 5px 0; height: 105px; padding: 12px; float:left; background-color: #333; border:1px solid #777}
+.album_body li img.img {cursor: pointer; height: 100px; border: 1px solid #aaa; padding: 2px}
+.album_body li img.img:hover {background-color: #aaa}
+.rsvp_body .attending, .rsvp_body .not_attending, .rsvp_body .unsure {font-weight:bold; margin: 20px 0 6px}
+.rsvp_body .attending, .rsvp_body .not_attending, .rsvp_body .unsure {text-decoration: underline}
+.rsvp_body .rsvp_group {margin: 0.5em 0}
+.rsvp_post .comment {padding-left: 15px}
+.rsvp_post {margin: 0 0 5px 0; padding: 5px 0 0 10px; border-bottom: 1px dotted #aaa}
+.attendee {padding-bottom: 5px; margin-bottom: 5px; border-top: 1px solid #777}
+#rsvp_form p {clear: both}
+.whats_new_body li {list-style-type: none; margin-left: 0}
+.widget {text-align: center; margin: 0 auto}
+.registry_link {padding: 0 0 15px 0}
+#registry_creation_mall_rectangle {width:300px;height:250px;margin: 0 auto}
+.rsvp_post, .blog_post, .q_and_a_post, .guestbook_post {position: relative; _overflow: hidden; zoom: 1}
+#site_content {_overflow: hidden}
+.element {zoom: 1}
+form label {width: 130px; text-align: right; margin-right: 3px; display: inline-block}
+form .ta label {float: left}
+form .submit {padding-left: 133px}
+.add_area textarea {height: 36px; width: 300px}
+.element {*overflow: hidden}
+.special_area {margin: 0; padding: 0; overflow: hidden; width: 1px; height: 1px}
+#header {min-height: 210px; _height: 210px}
+body {background: #000}
+#site_wrapper {background: #000 url(theme_images/sky/red/bodybg.jpg) top center repeat-x; color:#e6f0f4}
+#header h1 {font-family: "Palatino Linotype", Palatino; color: #f7d4e9}
+#countdown {color: #fff}
+h2, h3, a {color: #fabfe2}
+#nav {}
+#pages {}
+#pages a {color: #fff}
+#pages a:hover {color: #fabfe2}
+#pages .selected a {color: #fabfe2}
+.element {background: transparent url(theme_images/sky/red/el_h2_1.png) left 10px no-repeat; _background-image: none}
+.element_body {}
+#lightbox{ position: absolute; left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0}
+#lightbox a img{ border: none}
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto}
+#imageContainer{ padding: 10px}
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0}
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10}
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+#prevLink, #nextLink{ width: 49%; height: 100%; background: transparent url(images/lb/blank.gif) no-repeat; display: block}
+#prevLink {left: 0; float: left;}
+#nextLink {right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover {background: url(images/lb/prev.gif) left 50% no-repeat}
+#nextLink:hover, #nextLink:visited:hover {background: url(images/lb/next.gif) right 50% no-repeat}
+#nextLinkText, #prevLinkText{ color: #FF9834; font-weight:bold; text-decoration: none}
+#nextLinkText{ padding-left: 20px}
+#prevLinkText{ padding-right: 20px}
+.ontop #imageData {padding-top: 5px}
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em}
+#imageData{ padding:0 10px}
+#imageData #imageDetails{ width: 70%; float: left; text-align: left}
+#imageData #caption{ font-weight: bold}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em}
+#imageData #numberDisplay a {color: black; padding-left: 5px; padding-right: 5px;}
+#imageData #bottomNavClose{ width: 66px; float: right; padding-bottom: 0.7em}
+#imageData #helpDisplay {clear: left; float: left; display: block}
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; filter:alpha(opacity=60); -moz-opacity: 0.6; opacity: 0.6; display: none}
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
+* html>body .clearfix {display: inline-block; width: 100%}
+* html .clearfix {height: 1%}
+#lightboxIframe {display: none}
+#dropdown {margin: 0 auto 0 auto; min-height: 25px; _height: 25px; width: 970px; padding: 2px 0 0 0}
+#dropdown table {position: absolute; top: 0; left: 0; border-collapse: collapse}
+#dropdown ul, #dropdown li {list-style: none; margin: 0; padding: 0}
+#dropdown ul {position: relative; z-index: 597; float: left}
+#dropdown ul li {list-style: none; margin: 0; padding: 0; float: left; line-height: 1.3em; vertical-align: middle; zoom: 1}
+#dropdown ul li:hover, #dropdown ul li.hover {position: relative; z-index: 599; cursor: default}
+#dropdown ul ul {visibility: hidden; position: absolute; top: 100%; left: 0; z-index: 598; width: 100%}
+#dropdown ul ul li {float: none}
+#dropdown li:hover ul, #dropdown li.hover ul, #dropdown ul a:hover ul {visibility: visible}
+#dropdown h2, #dropdown a h2 {margin: 0; padding: 0; font-size: 1em; font-weight: normal; color: #fff !important}
+#dropdown ul a {text-decoration: none; display: block; color: #e3e8e3; text-shadow: 1px 1px 0px #1a3804; height: 16px; padding: 3px 9px 4px 9px; font-size: 14px}
+#dropdown ul h2, #dropdown ul h3 {margin: 0; padding: 0; font-size: 1em; font-weight: normal}
+#dropdown ul li {border-right: 1px solid #336111; border-left: 1px solid #62a62c}
+#dropdown ul li li {border-width: 0px}
+#dropdown ul li.selected, #dropdown ul li:hover, #dropdown ul li.hover {background: #43741d url(images/home/nav_bg.jpg) top left repeat-x}
+#dropdown ul ul {background: #43741d url(images/home/nav_bg.jpg) left -23px repeat-x; width: 150px}
+#dropdown ul li.drop a {padding-right: 20px; background-image: url(images/nav-arrow-down-white.png); background-position: 100% 50%; background-repeat: no-repeat}
+#dropdown ul li.drop li a {background-image: none}
+#announcements {margin: 0; font-size: 13px; font-face: arial; border: 2px solid #6c110b; background: #fff3f3; color: #6c110b; padding: 5px}
+#announcements p {margin: 0}
+#announcements a {color: #000}
+#event_top {background: #fff url(images/home/bg.jpg) top center repeat-x; font: 13px Arial, Verdana, Helvetica; color: #000; min-height: 75px; _height: 75px}
+form.inline {display: inline; margin: 0}
+#org_header, #org_nav {width: 970px; padding: 0; margin: 0 auto 0 auto}
+#org_header {position: relative; height: 50px; color: #222; font-size: 11px}
+#org_header a {color: #222; text-decoration: none}
+#org_header #current_event_dropdown {padding-top: 5px; font-size: 10px; color: #444}
+#org_header #logo {float: left; margin-right: 10px}
+#org_header #user_area {padding-top: 2px; float: right; text-align: right; font-weight: bold}
+#org_header #user_area a {display: inline-block; margin: 2px; color: #444; text-decoration: underline}
+#org_header h1#page_title {float: left; padding: 15px 0 0 0; margin: 0; font-size: 14px; color: #477a1e; font-weight: bold}
+#org_nav {padding-top: 1px; min-height: 25px; _height: 25px}
+#org_website_top {border-bottom: 2px solid #777; background-color: #fff; padding: 2px 0; color: #000}
+#org_website_top a {color: #477a1e}
+#org_website_top .inner {width: 970px; margin: 0 auto}
+#org_website_top .banner {float: right; margin-left: 5px; width: 728px; height: 90px}
