@@ -1,6 +1,9 @@
 $section-text-size: 12;
 body {
 	background-color: white;
+	background-image: url("/images/backgrounds/checkered_texture_small.png");
+	background-repeat: repeat;
+	overflow: hidden;
 }
 
 a {
@@ -22,14 +25,8 @@ a:hover {
 	box-shadow: 0px 0px 10px 5px #FFFFFF;
 }
 
-div.static-background{
-	position: absolute;
-	z-index: -1;
-	left: 0px;
-	top: 0px;
-	height: 100%;
-	width: 100%;
-	background-image: url("/images/backgrounds/checkered_texture_small.png");
-	background-repeat: repeat;
-	overflow: hidden;
+.overlay{
+	position: fixed;
+	overflow-y: scroll;
+	top: 0; right: 0; bottom: 0; left: 0;
 }
